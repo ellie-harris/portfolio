@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-App will generate a random daily horoscope message as output to the user, based on a birth date input. 
+Web page will display personal portfolio of demo projects 
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
