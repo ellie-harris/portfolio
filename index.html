@@ -7,26 +7,71 @@
 
   <title>Ellie Harris Portfolio</title>
   <meta name="Portfolio" content="Portfolio">
-  <meta name="Ellie Harris" content="Portfolio">
+  <meta name="Ellie Harris" content="Personal Project Portfolio">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
   <script type="text/javascript" src="app.js"></script>
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <section id='title'> 
-      <h1>Daily Horoscope Generator</h1>
+  <header>
+    <h1 class='title'>Ellie Harris</h1>
+
+    <nav>
+      <ul role='presentation'>
+        <a href="#about-me"><li id='nav-about-me'>About Me</li></a>
+        <a href="#projects"><li>Projects</li></a>
+        <a href="#skills"><li>Skills</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+      </ul>
+    </nav>
+  </header>  
+  
+  <main>
+    <section class='about-me' id='about-me'>
+      <h2 class='section-title'>ABOUT ME</h2>
+      <div class='flex-container'>
+        <img class="photos" src="ellie-image.png" alt="Ellie Harris graduation photo">
+        <div id='about-me-text'>
+          <p>Hi, I'm Ellie! My educational background is scientific, I have a bachelor's degree in Biological Sciences with a year in industry at a world leading pharmaceutical company. After graduating, I travelled around Asia, Australia and New Zealand, and spent 18 months living in Melbourne, working as an IT support and data entry temp. </p>
+          <p>Since my return to the UK, I have been working as a molecular biology laboratory technician, however am now seeking a career change after discovering a passion for programming and web development.</p>
+        </div>
+      </div>
     </section>
 
-    <section id='intro-text'>
-      <p>Enter your name and birthday below to generate a personalised horoscope message!</p>
+    <section class='projects' id='projects'>
+      <h2 class='section-title'>PROJECTS</h2>
+      <div class='flex-container'>
+        <ul role='presentation' id='projects-list'>
+          <li>Horoscope Generator</li>
+          <li>Lawson's Timber</li>
+        </ul>
+        <img class="photos" src="icons/coding-stock-image.png" alt="laptop open with code on screen">
+      </div>
     </section>
+
+    <section class='skills' id='skills'>
+      <h2 class='section-title'>SKILLS</h2>
+      <div id="skills-container" class='flex-container'>
+        <img class='icon' src="icons/html5-icon.png" alt="html5 icon">
+        <img class='icon' src="icons/css3-icon.png" alt="css3 icon">
+        <img class='icon' src="icons/js-icon.png" alt="javascript icon">
+        <img class='icon' src="icons/git-icon.png" alt="git icon">
+        <img class='icon' src="icons/github-icon.png" alt="github icon">
+        <img class='icon' src="icons/react-icon.png" alt="react icon">
+        <img class='icon' src="icons/node-js-icon.png" alt="node.js icon">
+        <img class='icon' src="icons/npm-icon.png" alt="node package manager icon">
+        <img class='icon' src="icons/devtools-icon.png" alt="google chrome dev tools icon">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  
+  </footer>
 
 </body>
 </html>
