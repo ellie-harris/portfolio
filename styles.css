@@ -3,34 +3,30 @@ body {
 }
 
 header h1 {
-    font-size: 3.5em;
+    font-size: calc(35px + (70 - 35) * ((100vw - 300px) / (1600 - 300)));;    
     text-align: center;
     color: #454442;
+    padding-top: 30px;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
     margin-bottom: 50px;
 }
 
 nav ul {
-    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
 }
 
 nav li {
     color: #454442;
-    font-size: 1em;
-    display: inline-block;
-    width: 80px;
+    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));;    
     list-style-type: none;
     text-align: center;
     font-weight: bold;
-}
-  
-#nav-about-me {
-    padding-right: 20px;
-    padding-left: 10px;
+    padding: 5px 20px;
 }
 
 .about-me {
@@ -43,6 +39,7 @@ nav li {
     border-radius: 50%;
     max-width: 200px;
     max-height: 200px;
+    padding: 15px 30px;
 }
 
 .section-title {
@@ -56,13 +53,17 @@ nav li {
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0 40px;
+    flex-wrap: wrap;
+}
+
+p {
+    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));;
+    text-align: center;
 }
 
 #about-me-text {
     max-width: 500px;
-    padding-left: 40px;
     color: #454442;
 }
 
@@ -74,6 +75,8 @@ nav li {
 #projects-list {
     padding-right: 40px;
     color: #454442;
+    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));;
+    text-align: center;
 }
 
 .contact-info {
@@ -91,9 +94,17 @@ nav li {
     padding-bottom: 20px;
 }
 
+.contact-info p {
+    margin: 15px 30px;
+}
+
 .skills {
     margin-top: 80px;
     margin-bottom: 80px;
+}
+
+#skills-title {
+    margin-bottom: 30px;
 }
 
 .icon {
@@ -104,4 +115,11 @@ nav li {
 footer li {
     list-style-type: none;
 }
+
+@media only screen and (max-width: 480px) {
+    .photos {
+      width: 75%;
+      height: 75%;
+    }
+  }
 
