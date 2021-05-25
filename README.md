@@ -13,7 +13,7 @@ Webpage displaying personal portfolio and contact information
 ## Technologies
 
 A list of technologies used within the project:
-* [Node.js](https://nodejs.org/en/) -  Version 14.6.1 LTS
+* n/a
 
 ## Installation
 
@@ -28,5 +28,4 @@ $ cd ../path/to/portfolio
 If anyone has suggestions for features or improvements please get in touch via GitHub
 
 ## FAQs
-
 n/a
